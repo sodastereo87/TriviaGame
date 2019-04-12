@@ -1,0 +1,69 @@
+
+html, body{
+  height:95%;
+}
+
+body{
+  background-image: url(../images/wofl1.jpg);
+  text-align: center;
+
+}
+
+#main{
+  opacity: 0.9;
+  margin:2.5% auto;
+  background-color: grey;
+  width:960px;
+  height: 95%;
+  box-sizing: border-box;
+}
+
+
+#submain{
+  position: relative;
+}
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;;
+}
+
+img{
+  height:200px;
+}
+
+h1{
+  font-family: 'Aclonica', sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color:black;
+  padding-top: 2.5%;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#start{
+  margin-top: 10%;
+  border:2px solid black;
+  background: yellow;
+}
+
+
+
+button:hover {
+  border:2px solid blue;
+  background: yellow;
+}
